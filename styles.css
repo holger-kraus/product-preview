@@ -1,0 +1,197 @@
+body{
+    display: flex;
+    justify-content:center;
+    background-color: #F2EAE2;
+}
+.preheading {
+ margin-top:2rem;
+ font-family: 'Montserrat';
+ font-size: .75rem;
+ font-weight: 500;
+ line-height: .9375rem;
+ letter-spacing:.3125rem;
+ text-align: left;
+ color: #6C7289;
+}
+.heading {
+   margin-top:.75rem;
+   box-sizing: content-box;
+   width: 14.75rem;
+   height:6rem;
+   font-family: 'Fraunces';
+   Font-size: 2.1rem;
+   font-weight: 700;
+   line-height: 2rem;
+}
+@media (max-width : 600px) {
+.heading {
+   font-family: 'Fraunces';
+   Font-size: 2.1rem;
+   font-weight: 700;
+   line-height: 2rem;
+   width: 18.43rem;
+   height:4rem;
+  }
+}
+.productdescription {
+    margin-top:1rem;
+    padding:0;
+    font-family: 'Montserrat';
+    width:14.81rem;
+    font-size: .875rem;
+    font-weight: 500;
+    line-height: 1.4375rem;
+    letter-spacing: 0px;
+    text-align: left;
+}
+@media (max-width : 37.5rem) {
+ .productdescription {
+    margin-top:1rem;
+    padding:0;
+    font-family: 'Montserrat';
+    width:17.43rem;
+    font-size: .875rem;
+    font-weight: 500;
+    line-height: 1.4375rem;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+}
+.productdetails {
+    margin: 0;
+    border-top-right-radius: 0.625rem;
+    border-bottom-right-radius: 0.625rem;
+    padding-left:1.56rem;
+    width: 18.75rem;
+    height: 28.625rem;
+    background-color: #FFFFFF;
+}
+@media (max-width : 37.5rem) {
+.productdetails {
+    border-bottom-left-radius:0.625rem;
+    border-bottom-right-radius:0.625rem;
+    border-top-right-radius: initial;
+    padding-left:2.5rem;
+    width:22.43rem;
+    height:32rem;
+    background-color: #FFFFFF;
+ }
+}
+.productimage {
+    border-top-left-radius:0.625rem;
+    border-bottom-left-radius:0.625rem;
+    background-image: url("images/image-product-desktop.jpg");
+    width:18.75rem;
+    height: 28.625rem;
+    background-size:cover;
+}
+@media (max-width : 37.5rem) {
+    .productimage {
+      border-top-left-radius:0.625rem;
+      border-top-right-radius:0.625rem;
+       background-image: url("images/image-product-mobile.jpg");
+       width:22.43rem;
+       height: 15rem;
+       background-size:cover;
+    }
+}
+.productpreview {
+    margin-top: 10.9375rem;
+    width: 38.3125rem;
+    height: 38.1875rem;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    justify-content:flex-start;
+ }
+@media (max-width : 37.5rem) {
+  .productpreview {
+      margin-top: 1.75rem;
+      width:21.4375rem;
+      height: 38.1875rem;
+      display:flex;
+      flex-direction:column;
+      flex-wrap: nowrap;
+      justify-content:flex-start;
+  }
+}
+.discount {
+    color: #3D8168;
+    font-family: 'Fraunces';
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2rem;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.pricearea {
+    margin-top:3.125rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center
+}
+@media (max-width : 37.5rem) {
+.pricearea {
+   margin-top:1.5625rem
+ }
+}
+.oldprice {
+  margin:0;
+  text-decoration: line-through;
+  font-family: 'Montserrat';
+  font-size: .8125rem;
+  font-weight: 500;
+  line-height: 1.4375rem;
+  text-align: left;
+  margin-left: 1.1875rem;
+}
+.addtocart {
+ display:flex;
+ margin-top: 1.8125rem;
+ padding-top:.9375rem;
+ padding-bottom:.9375rem;
+ width:14.75rem;
+ height: 3rem;
+ background-color: #3D8168;
+ font-family: 'Montserrat';
+ font-size: .875rem;
+ font-weight: 700;
+line-height: 1.0625rem;
+letter-spacing: 0px;
+text-align: left;
+ color:#FFFFFF;
+ border:0;
+ border-radius:.5rem;
+}
+@media (max-width : 37.5rem) {
+.addtocart {
+   display:flex;
+   margin-top: 1.8125rem;
+   padding-top:.9375rem;
+   padding-bottom:.9375rem;
+   width:17.4375rem;
+   height: 3rem;
+   background-color: #3D8168;
+  font-family: 'Montserrat';
+  font-size: .875rem;
+  font-weight: 700;
+  line-height: 1.0625rem;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #FFFFFF;
+  border:0;
+  border-radius:.5rem;
+ }
+}
+
+.addtocart:hover {
+  background-color: #1A4032;
+}
+.icon {
+  width:.9375rem;
+  height:.9375rem;
+  margin-right:.375rem;
+  margin-left: 3.9375rem;
+  }
+}
